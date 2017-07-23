@@ -4,7 +4,7 @@ This code is specially written for Raspberry Pi 3 Model B. But can be customised
 
 ## Usage:
 
-You will be able to call your Vehicle anywhere you want via Internet and ask it to take you anywhere you want with a simple user application which could a web-application or an android/ios/iphone app. Here you will find two codes one which will be a third party system and could be controlled by anykind of application specific to any device and second to control (Vehicle/Drones) with the help of a raspberry pi.
+You will be able to call your Vehicle anywhere you want via Internet if you are out somewhere and in need and even can ask it to take you anywhere you want with a simple user application which could a web-application or an android/ios/iphone app. Here you will find two codes one which will be a third party system and could be controlled by anykind of application specific to any device and second to control (Vehicle/Drones) with the help of a raspberry pi.
 
 ## Requirements:
 
