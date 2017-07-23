@@ -22,19 +22,20 @@ if facing difficulty in installing libraries here is the link for the HELP:
 
 2. [WEAVED](https://www.remot3.it/web/)
 
-> Do replace the userName and password of the weaved account that you made if you want to set some default login account i.e want to login from same account every time without entering it everytime in the GUI or else can manually enter the details once you run the application in the GUI and can change login account there. 
+> Do replace the userName and password of the weaved account that you made.
 
 ## Instructions and Setup Environment:
 
 - Raspberry Pi should be properly configured as per the Instructions that are given in the weaved. Instructions(http://forum.weaved.com/t/how-to-get-started-with-remot3-it-for-pi/1029/6)
-- Your Raspberry should also be connected to the Internet.
 - Raspberry should have the code named Navigationpi.py on a particular location.
-- The Auto_Navigation_Vehicle.py should be checked and edited manually for changing source and destination by a valid source and destination as same as that coming on Google maps which is to be automated for actual application so that these fields get updated by an app or some application.
+- The Auto_Navigation_Vehicle.py should be checked and edited manually for changing source and destination by a valid source and destination as same as that coming on Google maps which is to be automated for actual application so that these fields get updated by an app or some application by some valid possible coordinates to find the perfect path.
 - The location of Navigationpi.py on pi is to be updated in Auto_Navigation_Vehicle.
 - Check the Database connectivity of the database you are using after changing the credentials for connectivity in main code.
 - Check Device containing Auto_Navigation_Vehicle.py and pi are all connected to some public network.
-- Change the credentials for Weaved account (If you do nat have a weaved account create that).
-- Do verify various locations and name of files mentioned on the source code and cross verify those.
+- Change the credentials for Weaved account (If you do not have a weaved account create that).
+- Do verify various locations and name of files mentioned on the source code.
+- You need to only run Auto_Navigation_Vehicle.py manually and rest code will run automatically on pi if all of the system is Online.
+- You can verify the path as the whole of the path that vehicle will follow will be printed before the Vehicle/Drone start's moving.
 
 ## Run:
 
