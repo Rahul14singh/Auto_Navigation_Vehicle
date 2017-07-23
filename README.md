@@ -27,7 +27,7 @@ if facing difficulty in installing libraries here is the link for the HELP:
 ## Instructions and Setup Environment:
 
 - Raspberry Pi should be properly configured as per the Instructions that are given in the weaved. Instructions(http://forum.weaved.com/t/how-to-get-started-with-remot3-it-for-pi/1029/6)
-- Raspberry should have the code named Navigationpi.py on a particular location.
+- Raspberry should have the codes named Navigationpi.py and initial_check.py on a particular location.
 - The Auto_Navigation_Vehicle.py should be checked and edited manually for changing source and destination by a valid source and destination as same as that coming on Google maps which is to be automated for actual application so that these fields get updated by an app or some application by some valid possible coordinates to find the perfect path.
 - The location of Navigationpi.py on pi is to be updated in Auto_Navigation_Vehicle.
 - Check the Database connectivity of the database you are using after changing the credentials for connectivity in main code.
