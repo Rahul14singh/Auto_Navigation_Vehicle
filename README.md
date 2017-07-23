@@ -1,2 +1,43 @@
 # Auto_Navigation_Vehicle
-With the help of this Project Vehicles will be able to auto navigate from a source to destination given by a user application via roads.
+
+This code is specially written for Raspberry Pi 3 Model B. But can be customised for any raspberry pi model by changing the GPIO pin configurations used in the code according to the model of Pi you are using. GPS can be added furthermore to make the system more reliable, efficient and robust and to check for the correctness of path and locations. Features like image processing and obstacle avoidance is to be added further.
+
+## Usage:
+
+You will be able to call your Vehicle anywhere you want via Internet and ask it to take you anywhere you want with a simple user application which could a web-application or an android/ios/iphone app. Here you will find two codes one which will be a third party system and could be controlled by anykind of application specific to any device and second to control (Vehicle/Drones) with the help of a raspberry pi.
+
+## Requirements:
+
+1. Python 3 or later 
+2. Paramiko installed " pip3 install paramiko " command on cmd to install library
+3. A weaved or remote3.it accounts it's free for a limited number of devices control and can be made from the given link below.
+4. A Hosting so that you can connect and maintain the database ( Here I used mysql) for the instructions to be given for navigation.
+5. Some other necessary supporting libraries.
+
+Install  [Python](https://www.python.org/downloads/) . Do install Python3 or later.
+
+if facing difficulty in installing libraries here is the link for the HELP:
+
+1. [Paramiko](http://www.paramiko.org/)
+
+2. [WEAVED](https://www.remot3.it/web/)
+
+> Do replace the userName and password of the weaved account that you made if you want to set some default login account i.e want to login from same account every time without entering it everytime in the GUI or else can manually enter the details once you run the application in the GUI and can change login account there. 
+
+## Instructions and Setup Environment:
+
+- Raspberry Pi should be properly configured as per the Instructions that are given in the weaved. Instructions(http://forum.weaved.com/t/how-to-get-started-with-remot3-it-for-pi/1029/6)
+- Your Raspberry should also be connected to the Internet.
+- Raspberry should have the code named Navigationpi.py on a particular location.
+- The Auto_Navigation_Vehicle.py should be checked and edited manually for changing source and destination by a valid source and destination as same as that coming on Google maps which is to be automated for actual application so that these fields get updated by an app or some application.
+- The location of Navigationpi.py on pi is to be updated in Auto_Navigation_Vehicle.
+- Check the Database connectivity of the database you are using after changing the credentials for connectivity in main code.
+- Check Device containing Auto_Navigation_Vehicle.py and pi are all connected to some public network.
+- Change the credentials for Weaved account (If you do nat have a weaved account create that).
+- Do verify various locations and name of files mentioned on the source code and cross verify those.
+
+## Run:
+
+```
+  python Auto_Navigation_Vehicle.py
+```
