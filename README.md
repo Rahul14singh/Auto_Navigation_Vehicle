@@ -22,7 +22,7 @@ if facing difficulty in installing libraries here is the link for the HELP:
 
 2. [WEAVED](https://www.remot3.it/web/)
 
-> Do replace the userName and password of the weaved account that you made.
+> Do note down the userName and password of the weaved account that you made. We will need this in code.
 
 > Do modify the source code according to the device you are using to measure the distance travelled by Vehicle/Drone eg for an Odometer you need to improve code accordingly. I have used Reed switch to measure the distance travelled so I have coded accordingly. 
 
